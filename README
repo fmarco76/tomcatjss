@@ -77,3 +77,5 @@ Here is an example of a secure connector:
            passwordClass="org.apache.tomcat.util.net.jss.PlainPasswordFile"
            certdbDir="/var/lib/pki/redhat.com-foobar/alias"
 />
+
+
