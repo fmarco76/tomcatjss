@@ -31,7 +31,7 @@ public interface IPasswordStore {
 
     public Enumeration<String> getTags();
 
-    public Object putPassword(String tag, String password);
+    public Object putPassword(String tag, String passwords);
 
     public void commit() throws IOException, ClassCastException,
             NullPointerException;
